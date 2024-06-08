@@ -1,0 +1,612 @@
+body {
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow-x: hidden;
+}
+.top-header {
+  /* background-image: url("./Image/rodeo-project-management-software-ONe-snuCaqQ-unsplash.jpg"); */
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.navbar-brand {
+  color: white;
+  transition: 0.2s linear;
+}
+.navbar {
+  z-index: 10;
+  background-color: rgb(7 41 71 / 37%);
+}
+.nav-link {
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-family: serif;
+}
+.nav-link:hover {
+  color: #0ef;
+}
+
+.inside-list-box {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.inside-list-box span {
+  color: white;
+  transition: 0.2s;
+}
+.inside-list-box span:hover {
+  color: #0ef;
+}
+.nav-link span {
+  font-size: 12px;
+}
+.navbar-toggler .bi-list {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-toggler {
+  background-color: rgba(205, 208, 211, 0.268);
+}
+.carousel {
+  position: absolute;
+  width: 100%;
+  top: -50px;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 100vh;
+}
+.navbar-brand:hover {
+  color: rgb(202, 196, 196);
+}
+.carousel-caption button{
+  border: none;
+padding: 8px 12px 8px 12px;
+  background-color: rgb(0, 0, 255);
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+  
+}
+
+.section-1 {
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.section-1 .row {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  text-align: center;
+}
+.section-1 .row .col-lg-4 h4 {
+  color: white;
+  margin: 10px 0 25px 0;
+}
+.section-1 .row .col-lg-4 p {
+  color: grey;
+  font-weight: bold;
+  font-size: large;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 200px;
+}
+.section-2 .row {
+  width: 88%;
+}
+.section-2 .row .col-lg-5 img {
+  width: 100%;
+  height: 500px;
+}
+.section-2 .row .col-lg-7 {
+  margin-top: 50px;
+  /* text-align: center; */
+}
+
+.section-2 .row .col-lg-7 div {
+  width: 100%;
+}
+
+.section-2 .row .col-lg-7 .section-box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.section-2 .row .col-lg-7 .section-box-1 {
+  margin: 10px;
+  padding: 15px;
+}
+.section-2 .row .col-lg-7 .section-box-2 {
+  margin: 10px;
+  padding: 15px;
+}
+.section-2 .row .col-lg-7 .section-box-1 div {
+  margin: 10px;
+  padding: 5px;
+  color: grey;
+}
+.section-2 .row .col-lg-7 .section-box-2 div {
+  margin: 10px;
+  padding: 5px;
+  color: grey;
+}
+.section-2 .row .col-lg-7 .section-box-1 div span {
+  color: grey;
+  /* background-color: grey; */
+  padding-right: 10px;
+}
+.section-2 .row .col-lg-7 .section-box-2 div span {
+  color: grey;
+  /* background-color: grey; */
+  padding-right: 10px;
+}
+.section-3 {
+  background-image: url("./Image/cherrydeck-UpsEF48wAgk-unsplash.jpg");
+  width: 100%;
+  height: 95vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: 100px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 15%;
+}
+.section-3 .modal-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+
+  text-align: center;
+}
+.circle {
+  text-align: center;
+}
+.section-3 .modal-box .circle .play-btn {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin-left: 250px;
+  transition: 0.3s linear;
+  padding: auto;
+  border: 3px solid rgb(184, 169, 169);
+  border-radius: 50%;
+}
+.section-3 .modal-box .circle .play-btn span {
+  font-size: 30px;
+  color: rgb(184, 169, 169);
+  padding-left: 5px;
+  padding-top: 12px;
+  transition: 0.3s linear;
+}
+.section-3 .modal-box .circle .play-btn:hover {
+  transform: scale(1.2);
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+}
+.section-3 .modal-box .circle .play-btn:hover span {
+  color: white;
+}
+
+.modal-content {
+  background-color: rgba(74, 75, 76, 0.268);
+}
+.modal-box .circle h3 {
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+.section-3 .row {
+  width: 80%;
+  padding-top: 30%;
+  /* position: absolute; */
+  margin: auto;
+}
+.data-box img {
+  width: 100%;
+}
+
+.data-box {
+  transition: 0.3s ease;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.data-box:hover {
+  transform: translateY(-20px);
+}
+.section-4 {
+  width: 80%;
+  margin: auto;
+}
+.section-4 img {
+  width: 100%;
+  height: 370px;
+}
+.section-4 .section-4-text {
+  text-align: left;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.section-4 .section-4-text h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.section-4 .section-4-text h5 {
+  text-align: left;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-4 .section-4-text p {
+  color: grey;
+  padding-top: 15px;
+  text-align: justify;
+}
+.btn-primary {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-div {
+  position: relative;
+  overflow: hidden;
+}
+.img-div .overlay {
+  position: absolute;
+  top: 75%;
+  right: 75%;
+  transition: 0.6s;
+  overflow: hidden;
+  padding-right: 20px;
+  margin-right: 12px;
+  height: 370px;
+  background-color: rgb(255, 255, 255);
+}
+.img-div .overlay:hover {
+  top: 0;
+  right: 0;
+  overflow: none;
+}
+
+.img-div .overlay div {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.img-div .overlay h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.img-div .overlay p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img-div .overlay .icon-exp {
+  padding-left: 0;
+  font-size: 25px;
+  padding-top: 0;
+  margin-top: 10px;
+}
+.img-div .overlay-1 {
+  top: 85%;
+  height: 400px;
+}
+.section-5 .row .col-lg-4 img {
+  width: 100%;
+  overflow: hidden;
+}
+.section-5 .row .col-lg-4 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.section-5 .row .col-lg-4 .img-scale {
+  transition: 0.3s;
+  overflow: hidden;
+  cursor: crosshair;
+}
+.section-5 .row .col-lg-4 .img-scale {
+  transition: 0.3s;
+  overflow: hidden;
+  cursor: url("./Image/heart.png"), crosshair;
+}
+
+.section-5 .row .col-lg-4 .img-scale:hover {
+  margin: 5px;
+}
+.section-5 .row .col-lg-4 h3 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.797);
+}
+.section-5 .row .col-lg-4 h5 {
+  font-size: 15px;
+  text-align: center;
+  color: grey;
+  padding-bottom: 15px;
+}
+.section-6 {
+  width: 100%;
+  height: 100vh;
+  min-height: auto;
+  background-color: #4157f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-6 .row {
+  width: 75%;
+  margin: auto;
+}
+.section-6 .row .col-sm-12 .costumers h1 {
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
+  font-family: serif;
+  padding: 15px;
+  margin-top: 40px;
+}
+.section-6 .row .col-sm-12 p {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.section-6 .row .col-sm-12 h1 {
+  font-size: 30px;
+  color: white;
+  text-align: justify;
+  font-weight: unset;
+  padding: 5px;
+  word-spacing: 2px;
+  line-height: 45px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section-7 {
+  width: 100%;
+  background-image: url("./Image/mario-gogh-VBLHICVh-lI-unsplash.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.section-7-text {
+  width: 60%;
+  text-align: center;
+}
+.section-7-text h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: unset;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section-7-text p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+.section-7-text button {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #4157f8;
+  color: white;
+  font-size: 15px;
+}
+.section-8 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-8-text {
+  text-align: center;
+}
+.section-8-text h1 {
+  margin-top: 20px;
+  color: rgb(67, 65, 65);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.section-8-text p {
+  color: darkgray;
+  margin-bottom: -2px;
+  font-size: 20px;
+}
+.section-8-text .row .col img {
+  margin-top: 20px;
+}
+.section-9 {
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(233, 233, 233, 0.816);
+}
+
+.section-9 .row .col-lg-6 img {
+  width: 100%;
+  height: 100vh;
+}
+.text-content {
+  display: flex;
+  /* background-color: rgba(247, 247, 247, 0.484); */
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.section-9-text {
+  width: 75%;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -30px;
+  text-align: center;
+  z-index: 10;
+}
+.section-9-text h2 {
+  font-weight: bold;
+  text-align: left;
+}
+.section-9-text p {
+  text-align: justify;
+  padding: 5px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.section-9-text .row .col-lg-6 h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+.section-9-text .row .col-lg-6 p {
+  padding: 5;
+  margin-bottom: -5px;
+}
+.col-lg-6 {
+  position: relative;
+}
+.overlay-container {
+  overflow: hidden;
+}
+.overlay-content {
+  position: absolute;
+  top: 88%;
+  width: 50%;
+  z-index: 1;
+  right: 88%;
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+  background-color: rgba(233, 233, 233, 0.816);
+
+  /* background-color: white; */
+  padding: 10px;
+  transition: 0.4s linear;
+
+  /* margin-left: 10px; */
+}
+.overlay-content h1 {
+  text-align: right;
+  padding: 15px;
+  padding-right: 15px;
+  font-size: 30px;
+}
+.overlay-content h2 {
+  padding-left: 15px;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+.overlay-content p {
+  text-align: justify;
+}
+.overlay-content:hover {
+  top: 45%;
+  right: 48.5%;
+}
+.section-10 {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.section-10 .row {
+  width: 75%;
+  margin: auto;
+}
+.discover {
+  border: 1.5px solid grey;
+  padding: 8px 12px 8px 12px;
+  color: grey;
+  width: 100%;
+  transition: .3s;
+  background-color: white;
+}
+.section-10 .row .col-lg-3 p {
+  text-align: justify;
+  padding: 10px;
+  color: grey;
+}
+.section-10 .row .col-lg-3 {
+  padding: 10px;
+  text-align: center;
+}
+.jobs div {
+  text-align: left;
+  margin-left: 10px;
+  padding: 1.5px;
+  color: grey;
+  transition: 0.1s;
+}
+.jobs div span {
+  padding-right: 8px;
+  font-size: small;
+}
+.jobs div:hover {
+  color: black;
+}
+
+.jobs a{
+  color: grey;
+  text-decoration: none;
+}
+.jobs a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.jobs a span{
+padding-right: 25px;
+padding-left: 15px;
+}
+.footer-text{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-close{
+  color: white;
+  background-color: white;
+}
+
+.discover:hover{
+  background-color: grey;
+  color: white;
+}

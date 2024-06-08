@@ -1,0 +1,326 @@
+@media(min-width:1200px){
+    .list-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 200px;
+        
+    }
+    .inside-list-box{
+        margin-left: 300px;
+        padding-left: 50px;
+    }
+    .inside-list-box span{
+        padding-right: 33px;
+        font-size: 20px;
+        
+
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 150px;
+
+    }
+    .carousel-caption p{
+        font-size: 25px;
+    }
+    .carousel-caption h1{
+        font-size: 60px;
+        font-weight: bold;
+        
+    }
+    .carousel-caption button{
+        border: none;
+      padding: 8px 12px 8px 12px;
+        background-color: rgb(0, 0, 255);
+        border-radius: 50px;
+        font-size: 20px;
+        color: white;
+        
+    }
+    
+    .nav-link{
+        text-align: center;
+    }
+    .nav-link::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background: #ffffff;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+       
+      }
+      
+      .nav-link:hover::after {
+        width: 100%;
+       
+      }
+      .carousel{
+        margin-top: 50px;
+      }
+      
+   
+}
+
+@media(max-width:500px) {
+    .carousel .carousel-caption{
+        top: 100px;
+        font-size: 10px;
+    }
+    .navbar {
+      z-index: 10;
+      background-color: rgba(7, 71, 67, 0.644);
+    }
+    .top-header{
+        height: 400px;
+    }
+    .carousel img{
+        width: 100%;
+        height: 400px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    .carousel .carousel-caption h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .carousel-caption button{
+        font-size: 20px;
+        background-color: blue;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        padding: 5px;
+        width: 100px;
+    }
+    .nav-link{
+        padding:5px;
+    }
+    .section-1{
+      margin-top: -20px;
+    }
+    .inside-list-box span{
+        padding: 10px;
+    }
+    .section-2 .row .col-lg-7 .section-box{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .section-2 .row .col-lg-7 .section-box-2{
+        margin-top: -40px;
+    }
+    .section-2 .row .col-lg-5 img{
+        width: 100%;
+        height: 350px;
+    }
+    .section-2{
+        padding-top: 20px;
+    }
+    .section-3 .modal-box  .circle .play-btn{
+        width: 50px;
+        height: 50px;
+       margin: auto;
+        border: 3px solid rgb(184, 169, 169);
+        border-radius: 50%;
+    }
+    .section-3 .modal-box  .circle .play-btn span{
+        font-size: 25px;
+        text-align: center;
+       padding-top: 10px;
+       padding-left: 2px;
+        
+    }
+    .modal-box .circle h3{
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .section-3 .row{
+        width: 80%;
+     padding-top: 85%;
+     
+        /* position: absolute; */
+        margin: auto;
+    }
+    .data-box{
+        margin-top: 40px;
+    }
+    .section-4{
+    
+        padding-top: 150%;
+        width: 100%;
+        text-align: center;
+    }
+    .section-4 .section-4-text h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .section-4 .section-4-text h5{
+        text-align: justify;
+   font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .btn-primary{
+        margin-top: 15px;
+        margin-left: 2px;
+       
+        border-radius: 30px;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .img-div img{
+        height: 400px;
+      }
+      .img-div .overlay {
+        height: 400px;
+        top: 83%;
+        right: 78%;
+        text-align: center;
+        padding-left: 25px;
+      }
+      .img-div .overlay  p{
+        text-align: center;
+       margin-left: 20px;
+       margin-right: 20px;
+        font-size: 20px;
+      }
+      .section-6{
+        height: 600px;
+      }
+      .section-6 .row{
+        width: 100%;
+      }
+      .section-6 .row .col-sm-12 .costumers h1{
+        font-size: 80px;
+        text-align: center;
+      }
+      .section-6 .row .col-sm-12 p{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .section-6 .row .col-sm-12 h1{
+        font-size: 25px;
+      }
+      .section-7{
+        height: 600px;
+      }
+      .section-7-text{
+        width: 100%;
+      }
+      .section-8-text{
+        padding: 10px;
+        margin: 10px;
+      }
+      .section-8-text .row .col img{
+        margin: 20px;
+      }
+      .section-9 .row .col-lg-6 img{
+        height: 450px;
+      }
+      .section-9{
+        height: auto;
+      margin-top: 30px;
+      }
+      .section-9-text{
+        margin-top: 30px;
+      }
+      .overlay-content{
+        position: absolute;
+        top: 83%;
+        width: 50%;
+        z-index: 1;
+        right: 80%;
+        font-family: 'Times New Roman', Times, serif;
+        overflow: hidden;
+        background-color:rgba(233, 233, 233, 0.816) ;
+      
+      
+      padding: 10px;
+      transition: .3s linear;
+      
+      
+      }
+     
+      .overlay-content:hover{
+        top: 10%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        
+      }
+      .section-5{
+        margin-top: 50px;
+      }
+}
+
+@media( min-width:501px) and (max-width:850px){
+  .section-4{
+  padding-top: 100%; }
+
+  .section-1 {
+    margin-top: -55%;
+    padding: 0;
+  }
+  .section-3 .row{
+    padding-top: 60%;
+  }
+  .section-3 .row .col-lg-4{
+    margin-bottom: 50px;
+    width: 500px;
+    margin-left: 78px;
+  }
+.section-9 .row{
+  height: 500px;
+}
+.section-9 .row .col-lg-6 img{
+  height: 500px;
+}
+.section-5{
+  margin-top: 50px;
+}
+.section-9{
+  height: 500px;
+}
+.section-9-text{
+  padding-top: 50px;
+  overflow: hidden;
+
+}
+.overlay-container{
+  overflow: hidden;
+}
+.overlay-content {
+  position: absolute;
+  top: 61%;
+  width: 50%;
+  z-index: 1;
+  right: 75%;
+  height: 70px;
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+  background-color: rgba(233, 233, 233, 0.816);
+
+  /* background-color: white; */
+  padding: 10px;
+  transition: 0.4s linear;
+
+  /* margin-left: 10px; */
+}
+.overlay-content:hover {
+  top: 0;
+  right: 0;
+  height: 500px;
+  width: 350px;
+  padding: 15px;
+}
+}
