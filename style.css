@@ -23,7 +23,7 @@ body {
   background-color: rgb(7 41 71 / 37%);
 }
 .nav-link {
-  color: white;
+  color: white !important;
   padding: 10px;
   font-size: 15px;
   font-family: serif;

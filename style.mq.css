@@ -16,6 +16,9 @@
         
 
     }
+    .nav-link span{
+      font-size: 10px;
+    }
     .carousel-caption{
         position: absolute;
         top: 150px;
@@ -59,6 +62,9 @@
       }
       .carousel{
         margin-top: 50px;
+      }
+      .section-9-text{
+        padding-top: 100px;
       }
       
    
@@ -277,7 +283,7 @@
   .section-3 .row .col-lg-4{
     margin-bottom: 50px;
     width: 500px;
-    margin-left: 78px;
+    margin-left: 120px;
   }
 .section-9 .row{
   height: 500px;
