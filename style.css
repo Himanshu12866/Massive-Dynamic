@@ -3,6 +3,8 @@ body {
   right: 0;
   top: 0;
   overflow-x: hidden;
+  scroll-snap-type: mandatory;
+
 }
 .top-header {
   /* background-image: url("./Image/rodeo-project-management-software-ONe-snuCaqQ-unsplash.jpg"); */
