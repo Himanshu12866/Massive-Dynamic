@@ -315,12 +315,8 @@
   font-family: "Times New Roman", Times, serif;
   overflow: hidden;
   background-color: rgba(233, 233, 233, 0.816);
-
-  
   padding: 10px;
   transition: 0.4s linear;
-
- 
 }
 .overlay-content:hover {
   top: 0;
